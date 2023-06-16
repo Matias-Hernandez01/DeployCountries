@@ -1,0 +1,27 @@
+.mainContainer{
+  background-color:#222E38;
+  display: grid;
+  grid-template-rows: 5vh 5vh 90vh;
+  gap: 10px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.paginado{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}

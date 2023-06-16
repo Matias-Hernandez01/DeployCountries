@@ -1,0 +1,213 @@
+.mainContainer{
+  background-color: #222E38;
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: inline-block;
+}
+.container{
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+
+.form{
+  background-color: rgba(214, 137, 37, 0.781);
+  width: 500px;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 8px 12px 20px black;
+  border: 2px solid black;
+}
+
+.form h1{
+  color:aliceblue;
+  text-shadow: 2px 2px 8px black; 
+}
+
+.name{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.name label{
+  font-size: 17px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.input{
+  font-size: 15px;
+  width: 300px;
+  height: 30px;
+  margin:0;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(248, 186, 17);
+  border-radius: 5px;
+}
+
+.input::placeholder{
+  color: white;
+  font-family: monospace;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dificultad{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.dificultad label{
+  font-size: 17px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.select{
+  width: 300px;
+  height: 30px;
+  margin:0;
+  background-color: #AE7529;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: monospace;
+  color: white;
+  border: 1px solid rgb(248, 186, 17); 
+  font-size: 15px;
+}
+.select:hover{
+  color:rgb(255, 255, 255);
+  background-color: #C1945E;
+}
+
+.duracion{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.duracion label{
+  font-size: 17px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.temporadaAndCountries{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.temporadaAndCountries label{
+  font-size: 17px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.selectorDePaises {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+
+.buttonBack{
+  width: 100px;
+  height: 30px;
+  background-color: #2C3743;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  border: 0;
+  box-shadow: 3px 3px 10px rgb(75, 74, 74);
+}
+
+.buttonBack:hover{
+  width: 103px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.containerButtonBack{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 60px;
+  padding-left: 50px;
+}
+
+.error{
+  font-size: 13px;
+  color: red;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px 5px rgb(230, 141, 141);
+  text-transform: uppercase;
+}
+
+
+.buttonOk{
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid greenyellow;
+  height: 30px;
+}
+
+.selectedPaises{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: monospace;
+}
+
+.nombrePaises{
+  font-size: 15px;
+  font-family: monospace;
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
+
+.buttonDelete{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  color: red;
+  font-size: 15px;
+  
+}
+
+.nameCountriesSelected {
+  width: 300px;
+  flex-direction: column; 
+  background-color:#C1945E;
+  overflow: auto;
+  border-radius: 4px;
+  display: flex;
+}
+.buttonDelete:hover{
+  font-family: monospace;
+  font-size: 15px;
+}

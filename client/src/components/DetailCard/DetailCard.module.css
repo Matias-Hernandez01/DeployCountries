@@ -1,0 +1,230 @@
+.mainContainer{
+  background-color: #222E38;
+  height: 110vh;
+}
+
+.detailContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh;
+    gap: 100px;
+    padding: 10px 0px 0px 20px;
+    row-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.containerBack{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px 10px 25px;
+  height: 100px;
+  
+}
+
+.flechaBack{
+  width: 100px;
+  height: 30px;
+  background-color: #2C3743;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  border: 0;
+  box-shadow: 3px 3px 10px rgb(41, 41, 41);
+}
+
+.flechaBack:hover{
+  width: 103px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.imageContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  width: 100%;
+  height:100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+  object-fit: cover;
+}
+
+.detailCountry{
+  border: 0;
+  width: 95%;
+  height: 100%;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  justify-content: flex-start;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.name h1{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 35px;
+   color: rgb(255, 255, 255);
+   text-shadow: 5px 5px 10px rgb(0, 0, 0); 
+   justify-content: center;
+}
+
+.continent{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.continent h2{
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  justify-content: flex-end;
+}
+
+.continent h1{
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 2px white; 
+  justify-content: flex-start;
+
+}
+
+
+.capital{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 15px;
+ }
+
+.capital h2{
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  justify-content: flex-start;
+}
+
+.capital h1{
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 2px white; 
+  justify-content: flex-end;
+}
+
+  
+.subregion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 15px;
+  justify-content: space-around;
+
+}
+
+.subregion h2{
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+
+.subregion h1{
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 2px white; 
+}
+
+.area{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.area h2{
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+
+.area h1{
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 2px white; 
+}
+
+.poblacion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.poblacion h2{
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+
+.poblacion h1{
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 2px white; 
+}
+
+
+
+.DetailAndActivities{
+  overflow: auto;
+  background-color: #28323F;
+  width: 100%;
+  height: 100%;  
+  color: #292828;
+  text-shadow: 2px 0px 5px white;
+  /* border-radius: 20px;
+  border: 2px solid white; */
+}
+
+.activity{
+  color:wheat;
+  text-shadow: 2px 10px 5px #292828 ;
+  scroll-behavior:inherit;
+}
+
+.activities{
+  color:rgb(255, 255, 255);
+  text-shadow: 2px 10px 5px #292828 ;
+}
+
+.nameActivity{
+  color:rgb(226, 168, 60);
+}
