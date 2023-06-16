@@ -2,7 +2,8 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import { Landing, Home, Form, Detail, NotFound, Bienvenida } from './views';
 import Activities from './components/Activities/Activities';
-
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3001/';
 function App() {
   return (
     <div className='App'>

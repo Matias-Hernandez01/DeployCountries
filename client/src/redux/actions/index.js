@@ -10,7 +10,7 @@ import axios from 'axios';
 
 export const getApi = () => {
   return async (dispatch) => {
-    const apiData = await axios.get('http://localhost:3001/countries');
+    const apiData = await axios.get('/countries');
     const countries = apiData.data;
     dispatch({ type: GET_API, payload: countries });
   };
@@ -18,9 +18,7 @@ export const getApi = () => {
 
 export const getCountry = (name) => {
   return async (dispatch) => {
-    const searchByName = await axios.get(
-      `http://localhost:3001/countries?name=${name.valueSearch}`
-    );
+    const searchByName = await axios.get(`/countries?name=${name.valueSearch}`);
     const countries = searchByName.data;
     dispatch({ type: GET_COUNTRY, payload: countries });
   };
@@ -35,14 +33,14 @@ export const filter = (continent, population) => {
 
 export const countryDetail = (id) => {
   return async (dispatch) => {
-    const response = await axios.get(`http://localhost:3001/countries/${id}`);
+    const response = await axios.get(`/countries/${id}`);
     dispatch({ type: COUNTRY_DETAIL, payload: response.data });
   };
 };
 
 export const getActivities = () => {
   return async (dispatch) => {
-    const response = await axios.get('http://localhost:3001/activities');
+    const response = await axios.get('/activities');
     dispatch({ type: GET_ACTIVITIES, payload: response.data });
   };
 };
