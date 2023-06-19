@@ -3,8 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import { Landing, Home, Form, Detail, NotFound, Bienvenida } from './views';
 import Activities from './components/Activities/Activities';
 import axios from 'axios';
-axios.defaults.baseURL =
-  'https://deploycountries-production-b546.up.railway.app/';
+
 function App() {
   return (
     <div className='App'>
