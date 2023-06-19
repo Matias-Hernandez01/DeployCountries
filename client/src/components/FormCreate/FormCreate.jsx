@@ -109,7 +109,10 @@ const FormCreate = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post('http://localhost:3001/activities', form)
+      .post(
+        'https://deploycountries-production-b546.up.railway.app/activities',
+        form
+      )
       .then((res) => alert('Actividad creada correctamente'));
     setForm({
       ...form,

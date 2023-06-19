@@ -14,6 +14,8 @@ function App() {
         <Route exact path='/detail/:id' component={Detail} />
         <Route exact path='/create' component={Form} />
         <Route exact path='*' component={NotFound} />
+        <Route exact path='/detail/:*' component={NotFound} />
+        <Route exact path='/activities/:*' component={NotFound} />
       </Switch>
     </div>
   );
